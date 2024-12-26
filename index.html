@@ -7,10 +7,17 @@
     <title>Weather App</title>
 </head>
 <body>
-    <span>City:</span>
-    <input type="text" id="city">
-    <button id="search">Search</button>
-    <span id="result"></span>
+    <div class="weather-app">
+        <div class="input-container">
+            <span>City:</span>
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="search">Search</button>
+        </div>
+        <div class="output-container">
+            <span id="result"></span>
+            <div id="weather-animation"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
